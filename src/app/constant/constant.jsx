@@ -8,6 +8,7 @@ export const TAB_DATA = [
                 <li>Express</li>
                 <li>SQL</li>
                 <li>MongoDB</li>
+                <li>Flutter</li>
                 <li>JavaScript</li>
                 <li>React</li>
             </ul>
@@ -52,8 +53,8 @@ export const projectsData = [
         description:"Project 2 Description",
         image:"/Images/projects/2.jpeg",
         tag:["All","Web"],
-        gitUrl:"/",
-        previewUrl:"/",
+        gitUrl:"https://github.com/niranjan2052/netflixGpt",
+        previewUrl:"https://netflix-gpt-eosin-five.vercel.app/",
     },
     {
         id:3,
