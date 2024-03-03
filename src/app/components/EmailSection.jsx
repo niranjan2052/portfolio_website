@@ -7,6 +7,7 @@ import Image from "next/image";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [mailMessage, setMailMessage] = useState("Wait");
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {
@@ -27,6 +28,7 @@ const EmailSection = () => {
 
       result = await result.json();
       if (result.success) {
+        setMailMessage("Email sent successfully!");
         setEmailSubmitted(true);
       }
     } catch (error) {
@@ -139,7 +141,7 @@ const EmailSection = () => {
           </button>
           {emailSubmitted && (
             <p className="text-green-500 text-sm mt-2">
-              Email sent successfully!
+              {mailMessage}
             </p>
           )}
         </form>
