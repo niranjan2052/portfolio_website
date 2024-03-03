@@ -15,18 +15,22 @@ const EmailSection = () => {
       message: e.target.message.value,
     };
 
-    // const email = e.target.email.value;
-    // const subject = e.target.subject.value;
-    // const message = e.target.message.value;
+    const url =
+      "https://portfolio-website-lilac-tau.vercel.app/" ||
+      "http://localhost:3000";
 
-    let result = await fetch("http://localhost:3000/api/contact", {
-      method: "POST",
-      body: JSON.stringify(data),
-    });
+    try {
+      let result = await fetch(`${url}/api/contact`, {
+        method: "POST",
+        body: JSON.stringify(data),
+      });
 
-    result = await result.json();
-    if (result.success) {
-      setEmailSubmitted(true);
+      result = await result.json();
+      if (result.success) {
+        setEmailSubmitted(true);
+      }
+    } catch (error) {
+      console.error(error);
     }
 
     //Resend implimentation
