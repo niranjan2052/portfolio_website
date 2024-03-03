@@ -22,8 +22,8 @@ const AchievementSection = () => {
       value: "100",
     },
     {
-      metric: "Awards",
-      value: "7",
+      metric: "Certification",
+      value: "4",
     },
     {
       metric: "Years",
