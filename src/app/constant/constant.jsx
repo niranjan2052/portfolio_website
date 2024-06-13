@@ -44,7 +44,7 @@ export const projectsData = [
         description:"It is a website to search for real state made using MERN.",
         image:"/Images/projects/realEstate.jpeg",
         tag:["All","Web"],
-        gitUrl:"https://github.com/niranjan2052/portfolio_website",
+        gitUrl:"https://github.com/niranjan2052/REALESTATE",
         previewUrl:"https://realestate-client-beta.vercel.app/",
     },
     {
@@ -58,11 +58,11 @@ export const projectsData = [
     },
     {
         id:3,
-        title:"React Portfolio Website",
-        description:"Project 3 Description",
+        title:"MERN-Commerce",
+        description:"An E-Commerce website made using MERN.",
         image:"/Images/projects/1.jpeg",
-        tag:["All","Web","Mobile"],
-        gitUrl:"/",
+        tag:["All","Web"],
+        gitUrl:"https://github.com/niranjan2052/Broadway-Infosys",
         previewUrl:"/",
     },
     {
