@@ -45,7 +45,7 @@ export const projectsData = [
         image:"/Images/projects/realEstate.jpeg",
         tag:["All","Web"],
         gitUrl:"https://github.com/niranjan2052/portfolio_website",
-        previewUrl:"/https://realestate-client-beta.vercel.app/",
+        previewUrl:"https://realestate-client-beta.vercel.app/",
     },
     {
         id:2,
