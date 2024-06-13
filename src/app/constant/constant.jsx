@@ -40,17 +40,17 @@ export const TAB_DATA = [
 export const projectsData = [
     {
         id:1,
-        title:"React Portfolio Website",
-        description:"Project 1 Description",
-        image:"/Images/projects/1.jpeg",
+        title:"Real Estate",
+        description:"It is a website to search for real state made using MERN.",
+        image:"/Images/projects/realEstate.jpeg",
         tag:["All","Web"],
-        gitUrl:"/",
-        previewUrl:"/",
+        gitUrl:"https://github.com/niranjan2052/portfolio_website",
+        previewUrl:"/https://realestate-client-beta.vercel.app/",
     },
     {
         id:2,
         title:"Netflix GPT",
-        description:"Project 2 Description",
+        description:"App For Movie Recomendation Using Google Gemini AI.",
         image:"/Images/projects/2.jpeg",
         tag:["All","Web"],
         gitUrl:"https://github.com/niranjan2052/netflixGpt",
